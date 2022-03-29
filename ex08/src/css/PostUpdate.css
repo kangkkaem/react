@@ -1,0 +1,16 @@
+.postUpdate {
+    overflow: hidden;
+    margin-top: 1rem;
+    text-align: right;
+   }
+
+.postUpdate span {
+    font-size: 0.875rem;
+    color: #495057;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.postUpdate span:hover {
+    color: #e2e2e2;
+}

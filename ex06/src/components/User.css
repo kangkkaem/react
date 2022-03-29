@@ -1,0 +1,23 @@
+.User{
+    width :700px;
+    margin: auto 0px;
+    overflow: hidden;
+    margin-left: 700px;
+    margin-bottom: 20px;
+}
+
+.item1{
+    width: 300px;
+    float: left;
+    border: 3px solid #FFD662;
+    margin: auto 0px;
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 250px;
+}

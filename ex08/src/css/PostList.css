@@ -1,0 +1,61 @@
+.postListBlock {
+    margin-top: 1rem;
+    overflow: hidden;
+   }
+
+.buttonWrapper {
+    overflow: hidden;
+    margin-bottom: 1rem;
+    text-align: right;
+}
+
+.postItemBlock {
+    padding: 2rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.postItemBlock .subInfo {
+    margin-top: 0.5rem;
+    color: #8a8585;
+}
+
+.postItemBlock h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.postItemBlock h2 a {
+    color: gray;
+}
+
+.postItemBlock h2 a:hover {
+    color: #bebebe;
+}
+
+.postItemBlock p {
+    margin-top: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.subInfo span {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.paginationBlock {
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.paginationBlock button:disabled {
+    background: #adb5db;
+}

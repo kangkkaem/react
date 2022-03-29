@@ -1,0 +1,43 @@
+.postWriteBlock {
+    overflow: hidden;
+   }
+
+.postForm {
+    padding: 1rem;
+}
+
+.postForm input {
+    width: 100%;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    margin-top: 3rem;
+    padding-bottom:1rem;
+    border-bottom:1px solid #e2e2e2;
+}
+
+.postForm input:hover {
+    border-bottom: 1px solid #495057;
+}
+
+.postForm textarea {
+    font-family: inherit;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    min-height: 300px;
+    border: none;
+    outline: none;
+    border-bottom:1px solid #e2e2e2;
+}
+
+.postForm textarea:hover {
+    border-bottom: 1px solid #495057;
+}
+
+.postButtonWrapper{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+   
+}

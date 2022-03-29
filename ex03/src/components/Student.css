@@ -1,0 +1,91 @@
+.Student{
+    width: 600px;
+    padding: 20px;
+    margin: 0px auto;
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+
+
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  } 
+    
+input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding-bottom: 0.5rem;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 1px solid rgb(167, 165, 165);
+}
+
+.btn{
+    
+  background: #DCE2F0;
+  margin-top: 10px;
+  font-family: 'GangwonEdu_OTFBoldA';
+  margin-right: 10px;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid rgb(207, 199, 199);
+  padding: 2px;
+  width: 50%;
+}
+
+button{
+    
+    background: #DCE2F0;
+    margin-top: 10px;
+    font-family: 'GangwonEdu_OTFBoldA';
+    margin-right: 10px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 199, 199);
+    padding: 2px;
+    width: 15%;
+  }
+
+  button:disabled{
+    
+    background: #d3cfcf;
+    margin-top: 10px;
+    font-family: 'GangwonEdu_OTFBoldA';
+    margin-right: 10px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 199, 199);
+    padding: 2px;
+    width: 15%;
+  }
+
+  table{
+    margin:0px auto;
+    border-collapse: collapse;
+  }
+  
+  td{ 
+    border-bottom: 1px solid #DDA94B;
+    padding: 10px;
+  
+  }
+
+  .title{
+  background-color: #1E4174;
+  color: white;
+}
+

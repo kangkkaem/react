@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+
+.item{
+  padding: 20px;
+  font-size: 30px;
+  color: #b6bdc7;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.menu{
+  border-bottom: 3px solid #DDA94B;
+  padding: 10px;
+}
+

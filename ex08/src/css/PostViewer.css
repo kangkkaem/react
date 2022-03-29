@@ -1,0 +1,42 @@
+.viewerWriteBlock {
+    overflow: hidden;
+}
+
+.viewerForm {
+    padding: 1rem;
+}
+
+.viewerForm input {
+    width: 100%;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    margin-top: 3rem;
+    padding-bottom:1rem;
+}
+
+.viewerForm input:hover {
+    border-bottom: 1px solid #495057;
+}
+
+.viewerForm textarea {
+    font-family: inherit;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    min-height: 300px;
+    border: none;
+    outline: none;
+    border-bottom:1px solid #e2e2e2;
+}
+
+.viewerForm textarea:hover {
+    border-bottom: 1px solid #495057;
+}
+
+.viewerForm .subInfo {
+    margin-top: 1rem;
+    color: #495057;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e2e2e2;
+}

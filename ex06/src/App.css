@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+  font-family: 'GangwonEdu_OTFBoldA';
+
+}
+
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+
+.title{
+ 
+  background: #00539C;
+  color:#FFD662;
+
+}
+
+table{
+  margin:0px auto;
+  border-collapse: collapse;
+}
+
+td{ 
+  border-bottom: 1px solid #6caab8;
+  padding: 5px;
+
+}
+
+form{
+  width: 500px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+
+button{
+  background: #FFD662;
+  margin-top: 10px;
+  margin: auto 0px;
+  text-align: center;
+  font-family: 'GangwonEdu_OTFBoldA';
+  margin-right: 10px;
+  color: black;
+  border-radius: 8px;
+  border: 1px solid rgb(207, 199, 199);
+  padding: 2px;
+  width: 10%;
+  height: 25px;
+}
+
+.sbtn{
+  background: #FFD662;
+  margin-top: 10px;
+  margin: auto 0px;
+  text-align: center;
+  font-family: 'GangwonEdu_OTFBoldA';
+
+  color: black;
+  border-radius: 8px;
+  border: 1px solid rgb(207, 199, 199);
+  padding: 2px;
+  width: 50px;
+  height: 20px;
+}
+
+.sbtn:disabled{
+  background: #0a0a0a;
+  margin-top: 10px;
+  margin: auto 0px;
+  text-align: center;
+  font-family: 'GangwonEdu_OTFBoldA';
+
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid rgb(207, 199, 199);
+  padding: 2px;
+  width: 50px;
+  height: 20px;
+}
+
+.item{
+  padding: 20px;
+  font-size: 20px;
+  color: #b6bdc7;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.menu{
+  margin-top: 30px;
+  width: 700px;
+  margin: 0px auto;
+  border-top: 3px solid #DDA94B;
+  border-bottom: 3px solid #DDA94B;
+  padding: 10px;
+ 
+}
+
+a:link {
+  text-decoration: none;
+
+}
+
+a{
+  color: #6caab8;
+}
+
+a:active{
+  color: #00539C;
+}
+
+.btn {
+  background: #FFD662;
+  margin-top: 10px;
+  margin: auto 0px;
+  text-align: center;
+  font-family: 'GangwonEdu_OTFBoldA';
+  margin-right: 10px;
+  color: black;
+  border-radius: 8px;
+  border: 1px solid rgb(207, 199, 199);
+  padding: 2px;
+  width: 50px;
+  height: 20px;
+}
+
+.pagenation{
+  margin-top: 20px;
+}
+
+.tot{
+  margin-bottom: 10px;
+}
+
+.ad{
+  background: #ffffff;
+  margin: auto 0px;
+  text-align: center;
+  font-family: 'GangwonEdu_OTFBoldA';
+  margin-right: 10px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  padding: 2px;
+  width: 70px;
+  height: 20px;
+  
+}
+
+.link{
+  height: 30px;
+  float: left;
+}
